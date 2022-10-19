@@ -33,8 +33,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: 42Crunch REST API Static Security Testing
-        uses: 42Crunch/api-security-audit-action@v3
+      - name: Sarif Test
+        uses: ak1394/sarif-action@master
         with:
           # Please create free account at https://platform.42crunch.com/register
           # Follow these steps to configure API_TOKEN https://docs.42crunch.com/latest/content/tasks/integrate_github_actions.htm

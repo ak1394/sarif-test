@@ -1,0 +1,9 @@
+audit:
+  branches:
+    master:
+      fail_on:
+        score:
+          data: 10
+        issue_id:
+          - v3-global-http-clear
+          - v3-response-schema-undefined
